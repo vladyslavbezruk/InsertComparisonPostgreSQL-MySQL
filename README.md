@@ -7,6 +7,22 @@ Testing was performed by creating a load typical for an OLTP scenario of using a
 
 https://github.com/akopytov/sysbench
 
+## Build and Install Sysbench for MySQL support
+``` shell
+    ./autogen.sh
+    ./configure --with-mysql 
+    make -j
+    make install
+```
+
+## Build and Install Sysbench for PostgreSQL support
+``` shell
+    ./autogen.sh
+    ./configure --with-pgsql --without-mysql
+    make -j
+    make install
+```
+
 ![Screenshot](result_1.png)
 
 ![Screenshot](result_2.png)
