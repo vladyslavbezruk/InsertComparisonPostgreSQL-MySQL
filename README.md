@@ -23,6 +23,7 @@ https://github.com/akopytov/sysbench
     make install
 ```
 
+## Testing results
 ![Screenshot](result_1.png)
 
 ![Screenshot](result_2.png)
